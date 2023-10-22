@@ -13,7 +13,7 @@
 		572DBD3C2AE2627100FC88B6 /* AViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DBD3B2AE2627100FC88B6 /* AViewModel.swift */; };
 		572DBD3E2AE2627800FC88B6 /* BViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DBD3D2AE2627800FC88B6 /* BViewModel.swift */; };
 		572DBD452AE262E800FC88B6 /* Sharable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DBD442AE262E800FC88B6 /* Sharable.swift */; };
-		572DBD472AE26B8D00FC88B6 /* SharedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DBD462AE26B8D00FC88B6 /* SharedViewModel.swift */; };
+		572DBD472AE26B8D00FC88B6 /* Redrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572DBD462AE26B8D00FC88B6 /* Redrawer.swift */; };
 		57728D902AD192A700E6A545 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57728D8F2AD192A700E6A545 /* DesignSystem.swift */; };
 		57728D942AD192C000E6A545 /* For+DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57728D932AD192C000E6A545 /* For+DesignSystem.swift */; };
 		5780698C29FE45BE0052D02B /* SwiftUI_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5780698B29FE45BE0052D02B /* SwiftUI_DemoApp.swift */; };
@@ -28,7 +28,7 @@
 		572DBD3B2AE2627100FC88B6 /* AViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AViewModel.swift; sourceTree = "<group>"; };
 		572DBD3D2AE2627800FC88B6 /* BViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewModel.swift; sourceTree = "<group>"; };
 		572DBD442AE262E800FC88B6 /* Sharable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sharable.swift; sourceTree = "<group>"; };
-		572DBD462AE26B8D00FC88B6 /* SharedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedViewModel.swift; sourceTree = "<group>"; };
+		572DBD462AE26B8D00FC88B6 /* Redrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redrawer.swift; sourceTree = "<group>"; };
 		57728D8F2AD192A700E6A545 /* DesignSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		57728D932AD192C000E6A545 /* For+DesignSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "For+DesignSystem.swift"; sourceTree = "<group>"; };
 		5780698B29FE45BE0052D02B /* SwiftUI_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_DemoApp.swift; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			children = (
 				572DBD3B2AE2627100FC88B6 /* AViewModel.swift */,
 				572DBD3D2AE2627800FC88B6 /* BViewModel.swift */,
-				572DBD462AE26B8D00FC88B6 /* SharedViewModel.swift */,
+				572DBD462AE26B8D00FC88B6 /* Redrawer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 				572DBD362AE2624E00FC88B6 /* AView.swift in Sources */,
 				572DBD452AE262E800FC88B6 /* Sharable.swift in Sources */,
 				5780698E29FE45FC0052D02B /* ContentView.swift in Sources */,
-				572DBD472AE26B8D00FC88B6 /* SharedViewModel.swift in Sources */,
+				572DBD472AE26B8D00FC88B6 /* Redrawer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
