@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SharedView: View {
-    @ObservedObject var viewModel = SharedViewModel()
+    @ObservedObject var redrawer = Redrawer()
     let givenViewModel: Sharable
     
     init(givenViewModel: Sharable) {
@@ -24,7 +24,7 @@ struct SharedView: View {
                 ForEach(givenViewModel.intArray, id: \.self) { i in
                     Button {
                         givenViewModel.setChosenInt(as: i)
-                        viewModel.setChosenInt(as: i)
+                        redrawer.redraw()
                     } label: {
                         Text("chosen int -> \(i)")
                     }
